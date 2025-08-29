@@ -1,3 +1,6 @@
 pip install scikit-learn
 pip install pandas 
 pip install openyxl
+pip install seaborn
+pip install tensorflow
+pip install matplotlib
