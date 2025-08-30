@@ -33,6 +33,59 @@ El dataset contiene las siguientes características:
 
 ## 📈 Resultados
 
+Modelo Superficial (Random Forest)
+
+Métricas simples (success_rate, loss_count, varianza, longest_loss_streak)
+
+<img width="951" height="403" alt="image" src="https://github.com/user-attachments/assets/ed955958-432e-40ff-9b47-86e5201a36e9" />
+
+
+- Accuracy (Validation): 0.500
+- F1-score (macro): 0.500
+- F1-score (weighted): 0.500
+- Accuracy promedio CV: 0.767 ± 0.207
+
+Métricas complejas (features derivadas o agregadas)
+
+<img width="835" height="373" alt="image" src="https://github.com/user-attachments/assets/770e6b4c-6bda-416f-8131-06847922aed7" />
+
+
+- Accuracy (Validation): 1.000
+- F1-score (macro): 1.000
+- F1-score (weighted): 1.000
+- Accuracy promedio CV: 0.983 ± 0.033
+
+Nota: Las métricas complejas mejoran significativamente el desempeño del modelo superficial, mostrando la importancia de una buena selección de features.
+
+Modelo Profundo (Red Neuronal)
+
+Métricas simples
+<img width="953" height="393" alt="image" src="https://github.com/user-attachments/assets/10ae100c-c5c2-4a43-acd1-47ca519815e7" />
+
+Clase | Precision | Recall | F1-score | Support
+------|-----------|--------|----------|--------
+0     | 0.50      | 0.56   | 0.53     | 9
+1     | 0.50      | 0.44   | 0.47     | 9
+
+- Accuracy (Validation): 0.50
+- F1-score (macro): 0.50
+- F1-score (weighted): 0.50
+
+Métricas complejas
+<img width="986" height="424" alt="image" src="https://github.com/user-attachments/assets/840ab39a-a27e-4242-ab1e-1429bd189673" />
+
+- Accuracy (Validation): 1.00
+- F1-score (macro): 1.00
+- F1-score (weighted): 1.00
+
+Nota: Al igual que en el modelo superficial, las métricas complejas aumentan drásticamente el rendimiento del modelo profundo, alcanzando predicciones perfectas en los datos de validación.
+
+Conclusión Comparativa
+
+- Ambos modelos dependen fuertemente de la calidad y complejidad de las features.
+- Con métricas simples, el desempeño es limitado (accuracy ~0.5).
+- Con métricas complejas, se alcanza accuracy perfecto (1.0).
+- El modelo profundo puede escalar mejor a datasets más grandes o ruidosos, aunque ambos muestran un comportamiento similar frente a la complejida
 
 
 ## 🛠️ Tecnologías utilizadas
