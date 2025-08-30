@@ -10,8 +10,11 @@ Este proyecto implementa modelos de **Machine Learning supervisado** para predec
 El objetivo es evaluar cuál modelo se adapta mejor a los datos de métricas de transmisión y estimar la distancia con mayor precisión y robustez.
 
 ## 📊 Dataset
+EL datset original se encuentra alojado en:
 
-El dataset contiene las siguientes características:
+https://data.mendeley.com/datasets/r6skswb8s4/2
+
+El dataset prepara para entrenamiento contiene las siguientes características:
 
 - `success_rate`: Proporción de paquetes recibidos exitosamente.
 - `loss_count`: Número de paquetes perdidos.
