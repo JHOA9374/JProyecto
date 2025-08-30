@@ -83,7 +83,7 @@ Métricas complejas
 
 Nota: Al igual que en el modelo superficial, las métricas complejas aumentan drásticamente el rendimiento del modelo profundo, alcanzando predicciones perfectas en los datos de validación.
 
-Conclusión Comparativa
+## Conclusiones
 
 - Ambos modelos dependen fuertemente de la calidad y complejidad de las features.
 - Con métricas simples, el desempeño es limitado (accuracy ~0.5).
@@ -91,15 +91,6 @@ Conclusión Comparativa
 - El modelo profundo puede escalar mejor a datasets más grandes o ruidosos, aunque ambos muestran un comportamiento similar frente a la complejida
 
 
-## 🛠️ Tecnologías utilizadas
-
-- Python 3.x
-- scikit-learn
-- TensorFlow / Keras
-- pandas
-- numpy
-- matplotlib
-- seaborn
 
 ## 🚀 Instalación
 
